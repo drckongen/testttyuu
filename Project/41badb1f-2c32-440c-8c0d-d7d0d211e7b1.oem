@@ -23,7 +23,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="IAGDeviceSubType" id="85e7994c-f754-45fc-a94b-dd8eb398f25c" name="IAG_Device_0" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="04/29/2019 09:27:05" trackingId="f21d8d12-bea1-4866-8414-620f01304133" DN="IAG_Device_0" hash="d1fab33439e32d6b73e0e5896f3f382b" DHS="1c86e63a3d2f5ee816c91df2b53bbd66" TH="f6548679d61dbbf3a3f4622d74ed254a">
+      <Entity type="Device" subtype="IAGDeviceSubType" id="85e7994c-f754-45fc-a94b-dd8eb398f25c" name="IAG_Device_0" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="04/29/2019 09:27:05" trackingId="f21d8d12-bea1-4866-8414-620f01304133" DN="IAG_Device_0" hash="d1fab33439e32d6b73e0e5896f3f382b" DHS="c6bbfe76092cf43f52f54d143cdddbd0" TH="034bd5eefed2f7384fb008304489816f">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="4a9ac5d1-8d63-47a6-9436-9e34fceb5a22" name="Watch" version="0" dateCreated="04/25/2019 08:50:36" trackingId="b48e5e47-1be1-4944-b494-42db5bc5f136">
@@ -46,7 +46,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagGroup" subtype="" id="50596015-d726-4fef-90cb-01d921e26281" name="IAGs" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="04/25/2019 11:59:18" trackingId="b153dc8f-dd81-4bb7-a647-f61189d4ffd6" DN="IAGs">
+          <Entity type="IagGroup" subtype="" id="50596015-d726-4fef-90cb-01d921e26281" name="IAGs" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="05/13/2019 10:20:55" trackingId="b153dc8f-dd81-4bb7-a647-f61189d4ffd6" DN="IAGs">
             <AccessInfos />
             <ChildEntities>
               <Entity type="HmiIag" subtype="" id="30793255-8663-4a65-a31f-1291648e5bb5" name="ValveOnOff" version="NaN" dateCreated="04/25/2019 08:50:36" dateLastModified="04/25/2019 10:45:11" trackingId="a74942a9-5706-4f1c-8265-fc25ad60a133" DN="ValveOnOff">
@@ -286,6 +286,50 @@
                     <ChildEntities />
                   </Entity>
                   <Entity type="Variables" subtype="IagVariables" id="d3e8736c-8a4d-47bb-92ec-8c99667eb549" name="IAG Variables" version="1" dateCreated="04/25/2019 08:50:36" dateLastModified="04/29/2019 08:30:35" trackingId="cfac1b4d-64cc-4380-97f2-086436124a2d" SDName="User Variables" hash="b29023d5e690f5be0e6c48e5199d5e5a">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="HmiIag" subtype="" id="a20ad0b7-e5c2-49ce-8f34-8b663fc25fbd" name="A" version="0" dateCreated="05/13/2019 10:20:37" dateLastModified="05/13/2019 10:20:55" trackingId="d6356035-af90-4767-9b42-8d7996f7b666" DN="A">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="IagPage" subtype="GraphicalPage" id="1aa93afe-82a1-4761-b7a8-1f04d904f911" name="A" version="0" dateCreated="05/13/2019 10:20:37" dateLastModified="05/13/2019 10:20:55" trackingId="da05ba82-3fc3-43cc-810e-fa62c8d59c21" hash="57deb169a5494673ac1f776c65f821d6">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="IagPage" subtype="VisualBasicPage" id="ab80f3e5-ed5e-47da-8513-3becabe43747" name="A.vb" version="0" dateCreated="05/13/2019 10:20:37" dateLastModified="05/13/2019 10:20:55" trackingId="2d248703-163b-4406-b827-92d86fee2ed9" hash="5db3226924189f6cf6d6effee7c1a6cb">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="IagPage" subtype="UserEventsEntitySubtype" id="9fb0cd1f-0ea3-4ca1-b2aa-f928028ab0d9" name="User Events" version="0" dateCreated="05/13/2019 10:20:37" dateLastModified="05/13/2019 10:20:37" trackingId="494294dd-d42b-46d6-96ff-09a3bbfb7139">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="Variables" subtype="IagVariables" id="ddef3647-590e-462d-afb5-261b8d1e2cc4" name="IAG Variables" version="1" dateCreated="05/13/2019 10:20:37" dateLastModified="05/13/2019 10:20:55" trackingId="5166b5d1-adb2-4fdc-9a6d-d5e81199e051" SDName="User Variables" hash="2f78f0e122b7eeb33b6722a35c8e03ee">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="HmiIag" subtype="" id="40a7ab82-e422-4daa-a68d-54da49360ae2" name="B" version="0" dateCreated="05/13/2019 10:20:47" dateLastModified="05/13/2019 10:20:55" trackingId="74eb4883-73c8-48ea-aa90-8fe29a0049b8" DN="B">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="IagPage" subtype="GraphicalPage" id="477dece0-3398-433e-b704-90bf1f8bcfab" name="B" version="0" dateCreated="05/13/2019 10:20:47" dateLastModified="05/13/2019 10:20:55" trackingId="01c4902e-1a2a-4f1f-982c-de1014a6a94b" hash="9c9fb5a938c7c0766c1cd63f211c95fa">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="IagPage" subtype="VisualBasicPage" id="c8aa8a58-3d3d-4cfc-930e-f046c3d30e92" name="B.vb" version="0" dateCreated="05/13/2019 10:20:48" dateLastModified="05/13/2019 10:20:55" trackingId="ad9fdcc4-f398-42ff-ad98-7de3a6d5ac74" hash="4ccf3ee58d95b3be72e91e4b2ac37451">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="IagPage" subtype="UserEventsEntitySubtype" id="a9973049-321f-43d1-b408-5fa9dd2c8616" name="User Events" version="0" dateCreated="05/13/2019 10:20:48" dateLastModified="05/13/2019 10:20:48" trackingId="cf2f475a-335d-4484-804a-dfb4fcac9502">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="Variables" subtype="IagVariables" id="d30e26a5-f7d1-4ca6-87a2-02e4de142b8e" name="IAG Variables" version="1" dateCreated="05/13/2019 10:20:48" dateLastModified="05/13/2019 10:20:55" trackingId="ea334a10-bf25-4faf-b0de-479183ef823d" SDName="User Variables" hash="2f78f0e122b7eeb33b6722a35c8e03ee">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>
