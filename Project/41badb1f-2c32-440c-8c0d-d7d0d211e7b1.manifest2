@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="LiqtechCollectionV2" id="41badb1f-2c32-440c-8c0d-d7d0d211e7b1" trackingId="8d50dad9-ba2d-45e2-acc8-e74de47c8416" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="HMI-IAG" />
+      <ApplicationFeature name="IAG-Version:1.10" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>
