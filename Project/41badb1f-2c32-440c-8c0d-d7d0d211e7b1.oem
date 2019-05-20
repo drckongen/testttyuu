@@ -23,7 +23,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="IAGDeviceSubType" id="85e7994c-f754-45fc-a94b-dd8eb398f25c" name="IAG_Device_0" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="04/29/2019 09:27:05" trackingId="f21d8d12-bea1-4866-8414-620f01304133" DN="IAG_Device_0" hash="d1fab33439e32d6b73e0e5896f3f382b" DHS="c7386f6d5218e9564e665ead807c2a09" TH="f21d78840986d19b314b7c47187cf401">
+      <Entity type="Device" subtype="IAGDeviceSubType" id="85e7994c-f754-45fc-a94b-dd8eb398f25c" name="IAG_Device_0" version="0" dateCreated="04/25/2019 08:50:36" dateLastModified="04/29/2019 09:27:05" trackingId="f21d8d12-bea1-4866-8414-620f01304133" DN="IAG_Device_0" hash="d1fab33439e32d6b73e0e5896f3f382b" DHS="52bdf5248230fbb5e0da6c1fafd80f6b" TH="7d2ccf908a48be51a644864358d1b8d8">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="4a9ac5d1-8d63-47a6-9436-9e34fceb5a22" name="Watch" version="0" dateCreated="04/25/2019 08:50:36" trackingId="b48e5e47-1be1-4944-b494-42db5bc5f136">
@@ -338,7 +338,7 @@
               <Entity type="HmiIag" subtype="" id="1b6b393b-831e-4b62-8717-6a57040b6293" name="C" version="0" dateCreated="05/20/2019 09:33:36" dateLastModified="05/20/2019 09:33:48" trackingId="00b3885e-8616-4c1e-8451-6bc91d6830e3" DN="C">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="IagPage" subtype="GraphicalPage" id="cfa074cc-b10b-4733-a010-e7906c662629" name="C" version="0" dateCreated="05/20/2019 09:33:36" dateLastModified="05/20/2019 09:33:48" trackingId="12bfee5d-50b0-4c1c-b983-5696542ec2ef" hash="3f937aff38210764778a163d1383d6a0">
+                  <Entity type="IagPage" subtype="GraphicalPage" id="cfa074cc-b10b-4733-a010-e7906c662629" name="C" version="0" dateCreated="05/20/2019 09:33:36" dateLastModified="05/20/2019 09:34:35" trackingId="12bfee5d-50b0-4c1c-b983-5696542ec2ef" hash="aa16e0b6e8091587d936248f3c27f3c2">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="IagPage" subtype="VisualBasicPage" id="ffdcde33-a40c-4370-af28-a0045bd82105" name="C.vb" version="0" dateCreated="05/20/2019 09:33:36" dateLastModified="05/20/2019 09:33:48" trackingId="44d933c5-9336-4e52-abac-9931da33415f" hash="4f8684ded15ba112d80b64ab5f7f063c">
